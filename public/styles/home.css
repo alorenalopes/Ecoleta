@@ -1,6 +1,6 @@
 #page-home {
     height: 130vh;
-    background: url(../assets/icones/home-background.svg) no-repeat;
+    background: url(/assets/icones/home-background.svg) no-repeat;
     background-position: 35vw bottom;
 }
 
@@ -29,7 +29,7 @@
 #page-home header a span {
     margin-right: 16px;
     display: flex;
-    background-image: url(../assets/icones/log-in.svg);
+    background-image: url(/assets/icones/log-in.svg);
     width: 20px;
     height: 20px;
 }
