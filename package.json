@@ -2,11 +2,13 @@
   "name": "Ecoleta",
   "version": "1.0.0",
   "description": "",
-  "main": "/src/server.js",
+  "main": "/src/index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/server.js"
   },
-  "author": "Lorena Silveira Lopes",
+  "keywords": [],
+  "author": "Bruno Souza Ramos",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

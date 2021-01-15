@@ -1,18 +1,18 @@
-#page-create-point {
+#page-create-point{
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
-
 }
 
-#page-create-point header {
+#page-create-point header{
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
-#page-create-point header a {
+#page-create-point header a{
     color: var(--title-color);
     font-weight: bold;
     display: flex;
@@ -20,32 +20,32 @@
 }
 
 #page-create-point header a span{
-    margin-right: 16px;
-    background-image: url(/assets/icones/arrow-left.svg);
+    background-image: url(../assets/icones/arrow-left.svg);
     width: 20px;
     height: 24px;
+    margin-right: 16px;
     display: flex;
 }
 
-form {
+#page-create-point form{
     background-color: white;
     padding: 64px;
-    border-radius: 8px;
-    margin: 80px auto;
     max-width: 730px;
-    
+    border-radius: 8px;
+    margin: 80px auto ;
+
 }
 
-form h1{
+#page-create-point form h1{
     font-size: 36px;
 }
 
-form fieldset{
+#page-create-point form fieldset{
     margin-top: 64px;
     border: 0;
 }
 
-form legend{
+#page-create-point form legend{
     margin-bottom: 40px;
     display: flex;
     align-items: center;
@@ -53,86 +53,94 @@ form legend{
     width: 100%;
 }
 
-form legend h2{
+#page-create-point form legend h2{
     font-size: 24px;
 }
 
-form legend span{
-    font-size: 14px;
+#page-create-point form legend span{
     color: var(--title-color);
-    
+    font-size: 14px;
 }
 
-form .field{
-    flex: 1;
+#page-create-point form .field{
     display: flex;
     flex-direction: column;
     margin-bottom: 24px;
+    flex: 1
 }
 
-form .field-group{
+#page-create-point form .field-group{
     display: flex;
-
 }
 
-form input, form select{
+#page-create-point form input{
     background-color: #f0f0f5;
     border: 0;
     padding: 16px 24px;
     font-size: 16px;
-    outline: none;
     border-radius: 8px;
+    outline: none;
 }
 
-form select{
+#page-create-point form select{
+    background-color: #f0f0f5;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: none;
+
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
 
-form label {
+#page-create-point form label{
     font-size: 14px;
     margin-bottom: 8px;
 }
 
-form .field-group .field + .field{
+#page-create-point form .field + .field{
     margin-left: 24px;
 }
 
-form button{
+#page-create-point form button{
     width: 260px;
     height: 56px;
-    background-color:var(--primary-color);
     border-radius: 8px;
+    margin-top: 40px;
+    background-color: var(--primary-color);
     color: white;
     font-weight: bold;
     font-size: 16px;
     border: 0;
-    margin-top: 40px;
     transition: background-color 400ms;
 }
 
-form button:hover{
+#page-create-point form button:hover{
     background-color: #2fb86e;
+
 }
+
 
 .items-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
+
 }
 
 .items-grid li{
-    background-color: #f5f5f5;
-    list-style: none;
-    border: 2px solid #f5f5f5;
-    border-radius: 8px;
-    height: 180px;
-    padding: 32px 24px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-color: #f5f5f5;
+    list-style: none;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    padding: 32px 24px 16px;
+    height: 180px;
     text-align: center;
     cursor: pointer;
 }
@@ -142,12 +150,14 @@ form button:hover{
     flex: 1;
     display: flex;
     align-items: center;
-    color: var(--title-color)
+    color: var(--title-color);
+
 }
 
 .items-grid li.selected{
-    background: #e1faec;
-    border: 3px solid #34cb79;
+    background-color: #e1faec;
+    border: 2px solid #34cb79;
+
 }
 
 .items-grid li img,

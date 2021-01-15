@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 400ms;
+    transition: 400 ms;
 }
 
 #modal.hide{
@@ -17,6 +17,7 @@
 #modal .content{
     color: white;
     width: 420px;
+
 }
 
 #modal .header{
@@ -26,11 +27,12 @@
 }
 
 #modal .header a{
-    background-image: url(/assets/icones/x.svg);
+    background-image: url(../assets/icones/x.svg);
     width: 20px;
     height: 20px;
     display: flex;
     font-size: 0.01px;
+
 }
 
 #modal .header h1{
@@ -53,9 +55,8 @@
 #modal form input{
     flex: 1;
     background-color: #f0f0f5;
-    background-origin: 8px;
-    border: 0;
     border-radius: 8px 0 0 8px;
+    border: 0px;
     padding: 16px 24px;
     font-size: 16px;
     color: #6c6c80;
@@ -68,6 +69,7 @@
     background-color: var(--primary-color);
     border: 0;
     border-radius: 0 8px 8px 0;
+    transition: 400ms;
 }
 
 #modal form button:hover{
